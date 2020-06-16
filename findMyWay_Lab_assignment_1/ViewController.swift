@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var mapView: MKMapView!
     
+    var transporttype: MKDirectionsTransportType = .automobile
+    @IBOutlet weak var uiswitch: UISwitch!
+    @IBOutlet weak var typelabel: UILabel!
     let locationManager = CLLocationManager()
     var coordinates: CLLocationCoordinate2D?
     
@@ -48,7 +51,7 @@ class ViewController: UIViewController {
             let request = MKDirections.Request()
             request.destination = MKMapItem(placemark: MKPlacemark(coordinate: coordinates!))
             request.source = MKMapItem(placemark: MKPlacemark(coordinate: location))
-            request.transportType = .automobile
+            request.transportType = transporttype
             request.requestsAlternateRoutes = false
             let directions = MKDirections(request: request)
             directions.calculate { [unowned self] (response, error) in
@@ -124,6 +127,18 @@ class ViewController: UIViewController {
     //}
     
     
+    @IBAction func valueChanged(_ sender: Any) {
+        if uiswitch.isOn
+        {
+            transporttype = .automobile
+            typelabel.text = "Automobile"
+        }
+        else
+        {
+            typelabel.text = "Walking"
+            transporttype = .walking
+        }
+    }
     
 }
 extension ViewController:CLLocationManagerDelegate{

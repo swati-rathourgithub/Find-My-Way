@@ -35,22 +35,40 @@
                                     <action selector="navigateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xgt-Gf-4nu"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automobile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCk-ed-dCf">
+                                <rect key="frame" x="20" y="64" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m8i-do-46S">
+                                <rect key="frame" x="20" y="105" width="51" height="31"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="csn-rJ-tzr"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Qe4-j3-9Gm" secondAttribute="bottom" constant="20" id="4kd-oW-oE0"/>
                             <constraint firstItem="v0N-ht-BQZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BHs-bi-QfO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v0N-ht-BQZ" secondAttribute="bottom" id="C0f-bj-VfO"/>
+                            <constraint firstItem="m8i-do-46S" firstAttribute="top" secondItem="fCk-ed-dCf" secondAttribute="bottom" constant="20" id="EoS-CO-8oi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iFG-VT-V1k" secondAttribute="bottom" constant="20" id="HH6-IU-9sg"/>
                             <constraint firstItem="v0N-ht-BQZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IxH-SI-bLy"/>
+                            <constraint firstItem="fCk-ed-dCf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="SyV-qz-dKV"/>
                             <constraint firstItem="v0N-ht-BQZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Vyh-J3-Zcn"/>
                             <constraint firstItem="iFG-VT-V1k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cQI-je-l9d"/>
+                            <constraint firstItem="m8i-do-46S" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mYS-cI-bOg"/>
+                            <constraint firstItem="fCk-ed-dCf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="sZW-Hu-lCI"/>
                             <constraint firstAttribute="trailing" secondItem="Qe4-j3-9Gm" secondAttribute="trailing" constant="20" id="yYT-sZ-s7k"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="mapView" destination="v0N-ht-BQZ" id="JCX-fC-2p9"/>
+                        <outlet property="mapView" destination="v0N-ht-BQZ" id="DLr-t8-7dU"/>
+                        <outlet property="typelabel" destination="fCk-ed-dCf" id="ZtK-iY-iNw"/>
+                        <outlet property="uiswitch" destination="m8i-do-46S" id="xKP-54-707"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

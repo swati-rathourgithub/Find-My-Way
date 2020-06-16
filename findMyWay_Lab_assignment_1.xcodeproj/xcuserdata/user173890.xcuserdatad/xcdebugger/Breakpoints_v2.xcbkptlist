@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FC2A6D52-4BA6-41D5-B4D3-694E18740C1F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "068847E4-B745-48B5-9C68-D0C66C62333E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "findMyWay_Lab_assignment_1/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - 4c28a38f8d3a4d7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.mapView.getter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - f186b0e72860f160"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.mapView.setter : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - ed60685740cfec71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.mapView.modify : Swift.Optional&lt;__C.MKMapView&gt;"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - 7562379654ded8c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.mapView.modify : Swift.Optional&lt;__C.MKMapView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - eb81fff8478190ed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; findMyWay_Lab_assignment_1.ViewController"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "282">
+               </Location>
+               <Location
+                  uuid = "068847E4-B745-48B5-9C68-D0C66C62333E - a09f660a19b451d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "findMyWay_Lab_assignment_1.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;findMyWay_Lab_assignment_1.ViewController&gt;"
+                  moduleName = "findMyWay_Lab_assignment_1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user173890/Desktop/findMyWay_Lab_assignment_1/findMyWay_Lab_assignment_1/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
